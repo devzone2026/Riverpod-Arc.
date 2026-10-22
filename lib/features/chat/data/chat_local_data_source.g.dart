@@ -1,0 +1,58 @@
+// GENERATED CODE - DO NOT MODIFY BY HAND
+
+part of 'chat_local_data_source.dart';
+
+// **************************************************************************
+// RiverpodGenerator
+// **************************************************************************
+
+// GENERATED CODE - DO NOT MODIFY BY HAND
+// ignore_for_file: type=lint, type=warning
+
+@ProviderFor(chatLocalDataSource)
+final chatLocalDataSourceProvider = ChatLocalDataSourceProvider._();
+
+final class ChatLocalDataSourceProvider
+    extends
+        $FunctionalProvider<
+          ChatLocalDataSource,
+          ChatLocalDataSource,
+          ChatLocalDataSource
+        >
+    with $Provider<ChatLocalDataSource> {
+  ChatLocalDataSourceProvider._()
+    : super(
+        from: null,
+        argument: null,
+        retry: null,
+        name: r'chatLocalDataSourceProvider',
+        isAutoDispose: false,
+        dependencies: null,
+        $allTransitiveDependencies: null,
+      );
+
+  @override
+  String debugGetCreateSourceHash() => _$chatLocalDataSourceHash();
+
+  @$internal
+  @override
+  $ProviderElement<ChatLocalDataSource> $createElement(
+    $ProviderPointer pointer,
+  ) => $ProviderElement(pointer);
+
+  @override
+  ChatLocalDataSource create(Ref ref) {
+    return chatLocalDataSource(ref);
+  }
+
+  /// {@macro riverpod.override_with_value}
+  Override overrideWithValue(ChatLocalDataSource value) {
+    return $ProviderOverride(
+      origin: this,
+      providerOverride: $SyncValueProvider<ChatLocalDataSource>(value),
+    );
+  }
+}
+
+String _$chatLocalDataSourceHash() =>
+    r'9c2f99998245fbfcfa6d3153a66395c286560e1a';
